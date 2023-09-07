@@ -1,0 +1,94 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Уберем подчеркивание у ссылок */
+a {
+    text-decoration: none;
+    color: #0074d9;
+}
+
+/* Сделаем ссылки интерактивными при наведении */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Улучшим шрифт заголовка */
+header h1 {
+    font-size: 36px;
+}
+
+/* Навигационное меню */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center; /* Центрируем ссылки */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; /* Увеличим размер шрифта */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Подчеркиваем ссылку при наведении */
+}
+
+/* Основное содержание */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Добавим скругление углов */
+}
+
+main h2 {
+    font-size: 24px; /* Увеличим размер заголовков разделов */
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Сделаем ссылки в тексте более заметными */
+main a {
+    color: #0074d9;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал сайта */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px; /* Уменьшим размер шрифта */
+}
